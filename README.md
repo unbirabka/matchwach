@@ -11,17 +11,14 @@ Hi! repo ini di buat untuk keperluan pribadi
 
 > Jelaskan komponen-komponen & service-service yang ada pada infrastructure tersebut!
 
-- monitoring
-- - metric apps dan resource infra menggunakan grafana & promotheus 
+monitoring
+- metric apps dan resource infra menggunakan grafana & promotheus 
+- log centralize menggunakan kibana & elastic
+- archive log juga metric akan disimpan pada google storage
 
--- log centralize menggunakan kibana & elastic
-
--- archive log juga metric akan disimpan pada google storage
-
-- data
--- untuk database menggunakan mysql cluster dengan replikasi master-master menggunakan galera
-
--- untuk messaging queue menggunakan rabbitmq
+data
+- untuk database menggunakan mysql cluster dengan replikasi master-master menggunakan galera
+- untuk messaging queue menggunakan rabbitmq
 
 - kubernetes
 -- untuk web server pada kubernetes menggunakan ingress-nginx
