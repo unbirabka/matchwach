@@ -64,7 +64,7 @@ server 1 singapore primary
 server 2 india backup
 server 3 indonesia backup
 ```
-jika pada region singapore terjadi masalah maka haproxy akan switch server 1 singapore ke server 2 india sebagai backup, begitupun implementasi pada region lain
+jika pada region singapore terjadi masalah, haproxy akan switch server 1 singapore ke server 2 india sebagai backup, begitupun implementasi pada region lain
 
 ---
 >Jelaskan HA dan DRC plan untuk infrastructure ini!
