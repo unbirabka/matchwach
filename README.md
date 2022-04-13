@@ -12,7 +12,7 @@ Hi! repo ini di buat untuk keperluan pribadi
 > Jelaskan komponen-komponen & service-service yang ada pada infrastructure tersebut!
 
 - monitoring
--- metric apps dan resource infra menggunakan grafana & promotheus 
+- - metric apps dan resource infra menggunakan grafana & promotheus 
 
 -- log centralize menggunakan kibana & elastic
 
